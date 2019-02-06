@@ -1,0 +1,156 @@
+
+{
+    "startHour":"9",
+    "endHour":"20",
+    "undergrad_tas":[
+        {
+            "name":"a",
+            "email":"a@gmail.com"
+        },
+        {
+            "name":"b",
+            "email":"b@gmail.com"
+        },
+        {
+            "name":"c",
+            "email":"c@gmail.com"
+        },
+        {
+            "name":"d",
+            "email":"d@gmail.com"
+        }
+    ],
+    "schedule_items":[
+        {
+            "type":"Holiday",
+            "date":"2/9/2017",
+            "title":"SnowDay",
+            "topic":""
+        },
+        {
+            "type":"Lecture",
+            "date":"2/14/2017",
+            "title":"Lecture 3",
+            "topic":"Event Programming"
+        }
+    ],
+    "recitation":[
+        {
+            "section":"R05",
+            "instructor":"Banerjee",
+            "day_time":"Tues 5:30pm-6:23pm",
+            "location":"old CS 2114",
+            "ta1":"Joe Schmo",
+            "ta2":"Jane Doe"
+        },
+        {
+            "section":"R01",
+            "instructor":"McKenna",
+            "day_time":"Mon 4:30pm-5:23pm",
+            "location":"old CS 2114",
+            "ta1":"Joe Schmo",
+            "ta2":"Jane Doe"
+        },
+        {
+            "section":"a",
+            "instructor":"f",
+            "day_time":"fdsa",
+            "location":"fdsa",
+            "ta1":"a",
+            "ta2":"b"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"Jane",
+            "last_name":"Doe",
+            "role":"Lead Programmer",
+            "team":"Atomic Comics"
+        }
+    ],
+    "teams":[
+        {
+            "color":"552211",
+            "text_color":"ffffff",
+            "name":"Atomic Comic",
+            "link":"http://atomicomic.com"
+        }
+    ],
+    "course":[
+        {
+            "subject":"CSE",
+            "semester":"Fall",
+            "year":"2017",
+            "title":"Computer Science III",
+            "number":"219",
+            "instructor_name":"Richard Mckenna",
+            "instructor_home":"http://www.cs.stonybrook.edu/richard",
+            "export_dir":"./Courses/CSE219/Summer2017/public"
+        }
+    ],
+    "template_directory":"./templates/CSE219",
+    "site_pages":[
+        {
+            "file_name":"index.html",
+            "navbar":"Home",
+            "script":"HomeBuilder.js",
+            "use":true
+        },
+        {
+            "file_name":"syllabus.html",
+            "navbar":"Syllabus",
+            "script":"SyllabusBuilder.js",
+            "use":true
+        },
+        {
+            "file_name":"schedule.html",
+            "navbar":"Schedule",
+            "script":"ScheduleBuilder.js",
+            "use":true
+        },
+        {
+            "file_name":"hws.html",
+            "navbar":"HWs",
+            "script":"HWsBuilder.js",
+            "use":true
+        },
+        {
+            "file_name":"projects.html",
+            "navbar":"Projects",
+            "script":"ProjectsBuilder.js",
+            "use":false
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"9_00am",
+            "name":"b"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"9_00am",
+            "name":"b"
+        },
+        {
+            "day":"MONDAY",
+            "time":"9_30am",
+            "name":"b"
+        },
+        {
+            "day":"MONDAY",
+            "time":"10_00am",
+            "name":"a"
+        },
+        {
+            "day":"MONDAY",
+            "time":"10_00am",
+            "name":"b"
+        },
+        {
+            "day":"WEDNESDAY",
+            "time":"10_00am",
+            "name":"c"
+        }
+    ]
+}
